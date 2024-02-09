@@ -5,6 +5,6 @@ class HelloWorld{
 		System.out.println("Added 3rd line in the program");
 
 		Student student=new Student(14, "Sushant");
-		student.getStudentName();
+		System.out.println(student.getStudentName());
 	}
 }
